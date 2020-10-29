@@ -9,6 +9,8 @@ class Easy {
 		Easy() = default;
 
 		std::vector<int> twoSum(std::vector<int>& numbers, int target);
+		int reverse(int x);
+		bool isPalindrome(int x);
 };
 
 #endif // !EASY_H

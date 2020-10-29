@@ -26,5 +26,8 @@
     <ClInclude Include="Easy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SuperArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
