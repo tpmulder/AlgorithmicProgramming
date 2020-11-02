@@ -145,6 +145,7 @@
   <ItemGroup>
     <ClInclude Include="Easy.h" />
     <ClInclude Include="SuperArray.h" />
+    <ClInclude Include="SuperStack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

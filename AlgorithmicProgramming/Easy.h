@@ -11,6 +11,7 @@ class Easy {
 		std::vector<int> twoSum(std::vector<int>& numbers, int target);
 		int reverse(int x);
 		bool isPalindrome(int x);
+		int binarySearch(std::vector<int>& nums, int target);
 };
 
 #endif // !EASY_H

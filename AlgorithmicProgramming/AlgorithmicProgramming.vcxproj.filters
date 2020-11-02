@@ -29,5 +29,8 @@
     <ClInclude Include="SuperArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SuperStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
