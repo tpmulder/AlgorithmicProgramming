@@ -32,5 +32,11 @@
     <ClInclude Include="SuperStack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SuperList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>

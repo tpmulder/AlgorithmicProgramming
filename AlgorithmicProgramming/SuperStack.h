@@ -48,7 +48,7 @@ public:
 		top_ = -1;
 	}
 
-	friend std::ostream& operator<<(std::ostream& os, const SuperStack<T>& stack) {
+	friend std::ostream& operator<<(std::ostream& os, const SuperStack& stack) {
 		if (stack.is_empty()) {
 			os << "*** Empty Stack ***" << std::endl;
 			return os;
