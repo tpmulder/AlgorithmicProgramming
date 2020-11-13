@@ -144,12 +144,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Easy.h" />
+    <ClInclude Include="Excercise.h" />
     <ClInclude Include="SuperArray.h" />
     <ClInclude Include="SuperList.h" />
     <ClInclude Include="SuperStack.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="cpp.hint" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

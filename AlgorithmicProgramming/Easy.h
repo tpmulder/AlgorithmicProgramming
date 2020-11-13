@@ -5,14 +5,14 @@
 #include <vector>
 
 class Easy {
-	public:
-		Easy() = default;
+public:
+	static std::vector<int> two_sum(std::vector<int>& numbers, int target);
+	static int reverse(int x);
+	static bool is_palindrome(int x);
+	static int binary_search(std::vector<int>& nums, int target);
 
-		std::vector<int> twoSum(std::vector<int>& numbers, int target);
-		int reverse(int x);
-		bool isPalindrome(int x);
-		int binarySearch(std::vector<int>& nums, int target);
+private:
+	Easy() = default;
 };
 
 #endif // !EASY_H
-

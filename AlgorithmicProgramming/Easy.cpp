@@ -5,7 +5,7 @@
 
 using namespace std;
 
-vector<int> Easy::twoSum(vector<int>& nums, int target) {
+vector<int> Easy::two_sum(vector<int>& nums, int target) {
 
 	vector<int> arr;
 	int diff;
@@ -48,7 +48,7 @@ int Easy::reverse(int x) {
     else return output;
 };
 
-bool Easy::isPalindrome(int x) {
+bool Easy::is_palindrome(int x) {
 
     if (x < 0) return false;
     string s = to_string(x), t = s;
@@ -58,7 +58,7 @@ bool Easy::isPalindrome(int x) {
     return (t == s);
 };
 
-int Easy::binarySearch(vector<int>& nums, int target) {
+int Easy::binary_search(vector<int>& nums, int target) {
 
     int m, b = 0, e = nums.size() - 1;
     while (b <= e) {
